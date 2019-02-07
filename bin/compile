@@ -1,4 +1,4 @@
-echo "Checking available Node.js environment..."
+#!/usr/bin/env bash
 echo ""
 echo "Build dir: $1"
 echo "Cache dir: $2"
@@ -11,4 +11,7 @@ echo "Bundle version: $(bundle --version)"
 echo "Bundle location: $(which bundle)"
 echo ""
 echo "PATH: $PATH"
+echo ""
+echo "Running ./bin/autogen-elm-graphql ..."
+./bin/autogen-elm-graphql
 echo ""
