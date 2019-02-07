@@ -13,5 +13,5 @@ echo ""
 echo "PATH: $PATH"
 echo ""
 echo "Running ./bin/autogen-elm-graphql ..."
-./bin/autogen-elm-graphql
+$1/bin/autogen-elm-graphql
 echo ""
